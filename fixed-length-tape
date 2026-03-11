@@ -1,0 +1,29 @@
+# Run the example program on the last line by typing in the following characters: 3gg"tyy@t
+# Replace it with your bf program and allocate a large enough tape (only characters allowed are +-><[], i.e. no I/O, no comments, no whitespace, no newlines)
+gg/^qW"qy$gg/^wW"wy$gg/^eW"ey$gg/^rW"ry$@r
+q: *gg}Nw"zy$@z
+w: /*G{nkvyGo"_ccP@q/*Gdd{nr lr*
+e: @w@e
+r: GI yypVr 0lr*@e
++ /*gg0}}n
+- /*gg0}}n
+> /*gg0}}nr#jr*
+< /*gg0}}nr#kr*
+[ /*gg0}}nllvyGo"_ccP*gg}nll"xyiwGdd{/*r k@xjr*
+] /*G{nr k%jhr*
+
+0 % 1 mm 2 mm 3 mm 4 mm 5 mm 6 mm 7 mm 8 mm 9 mm
+
+Tape
+* 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+
+>+<++++++++[->[->++<]>[-<+>]<<]
