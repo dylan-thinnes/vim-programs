@@ -1,2 +1,2 @@
-#!/usr/bin/env -S nvim --clean -s
-I11kqqyiwjddpp@0k@qq@q
+#!/usr/bin/env -S vim --clean -s
+I1 1^qqyiwwhD2p@0ge@qq@q
