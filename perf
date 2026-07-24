@@ -1,0 +1,6 @@
+funct! TimeAStep()
+    let t = reltime()
+    normal @p
+    call writefile([string(reltimefloat(reltime(t)))], 'timestep', 'a')
+    redir END
+endfunct!
