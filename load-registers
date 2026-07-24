@@ -1,4 +1,0 @@
-:wrapscan
-G
-/^[a-z]:
-:nowrapscan
