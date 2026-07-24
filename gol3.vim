@@ -1,7 +1,14 @@
+Run the following: /^u:f:  "uy$:set wrapscanG/^[a-z]:@u
+Then type :set wrapscan
+Then do a step of the simulation with @p
+Time one hundred steps of simulation with :let t = reltime()100@p:echo reltimefloat(reltime(t))
+Write the field out with gg}jVG:w! out
+:call TimeAStep()
+u: I"lay$v0"zyxlxx  @z:set nowrapscann@u
 Width / 8
 n: 8
 Height
-m: 22
+m: 26
 3 * Width / 8
 b: 24
 Width
@@ -18,8 +25,6 @@ Remove a space and move 8 to the right
 t: x8 
 Place spaces, sum up the columns, remove the spaces
 y: $@b@rkk0@n@edk0@n@t
-Run on all triples
-u: gg}@m@y
 Create triple of middle-left-right shifts
 i: $ yy2px$pjx0Pj
 Turn all successive-triple-sums into middle-left-right shifts
@@ -29,7 +34,7 @@ g: dd{jG03ld
 Run a replacement run
 f: man0l"zy2l`avnr0r1`>r1@z
 Start a row in replacement
-h: 0 R@f mav*`a@f
+h: 0 R@f mavy/"`a@f
 Annotate three rows for the first replacement run
 j: jyypkI1@h3jI3@h4jI4@h1
 Annotate all rows for the first replacement run, attach @g
@@ -47,7 +52,7 @@ a: @m@s{$@m@co9@g
 Sum up rows
 x: $@b@rkk0@n@edk0@n@tk
 All together now
-p: gg}@w@u@o@ugg}@kgg}j@hgg}@m@lgg}@agg}j@hGogg}@m@xGddgg}
+p: gg}@wgg}@m@y@ogg}@m@ygg}@kgg}j@hgg}@m@lgg}@agg}j@hGogg}@m@xGdd
 
 0000000000000000000000010000000000000000000000000000000000000000
 0000000000000000000001010000000000000000000000000000000000000000
@@ -58,6 +63,10 @@ p: gg}@w@u@o@ugg}@kgg}j@hgg}@m@lgg}@agg}j@hGogg}@m@xGddgg}
 0000000000110000110000010000000000000000000000000000000000000000
 0000000000011000000000000000000000000000000000000000000000000000
 0000000000001000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
 0000000000000000000000000000000000000000000000000000000000000000
 0000000000000000000000000000000000000000000000000000000000000000
 0000000000000000000000000000000000000000000000000000000000000000
