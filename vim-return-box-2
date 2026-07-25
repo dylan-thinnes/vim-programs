@@ -1,0 +1,86 @@
+q: mzyiW`z@"
+l: @q:sleep 20m@l
+
+m: :call matchadd("MyGroup", "\\%=line(".")l\\%=col(".")c.")@q
+:highlight MyGroup ctermbg=green guibg=green
+
+Left-to-right, with a detour for the bottom:
+
+           ┌───────┐
+→ 3l 3l 5l │ 5jr5j │ 3l 3l 3l w 0000 /^HALT
+→ 3l 3l 5l │ 4jr4j │ 3l 3l 3l w 0000 /^HALT
+→ 3l 3l 5l │ 3jr3j │ 3l 3l 3l w 0000 /^HALT
+→ 3l 3l 5l │ 2jr2j │ 3l 3l 3l w 0000 /^HALT
+→ 3l 3l 5l │ 1jr1j │ 3l 3l 3l w 0000 /^HALT
+           │ 5k6l  │
+           └ j k ──┘
+             j k
+             j k
+             j k
+             j k 3h 3hh
+             w 0000 k
+
+Right-to-left, with a detour for the bottom:
+
+                              ┌───────┐
+/^HALT 0001 gEgE 3h 3h 3h │ 5jr5j │ 6h 3h 3h ←
+/^HALT 0000 gEgE 3h 3h 3h │ 4jr4j │ 6h 3h 3h ←
+/^HALT 0000 gEgE 3h 3h 3h │ 3jr3j │ 6h 3h 3h ←
+/^HALT 0000 gEgE 3h 3h 3h │ 2jr2j │ 6h 3h 3h ←
+/^HALT 0000 gEgE 3h 3h 3h │ 1jr1j │ 6h 3h 3h ←
+                              │  5h5k │
+                              └─ k j ─┘
+                                 k j
+                                 k j
+                                 k j
+                                 k j
+                                 k w 0002 j
+                                 k 3h 3h 3hhh
+
+Loop, where each track is on its own:
+
+                   ┌───────┐
+  ll3l 3l 3l 3l 5l │ 5jr5j │ 3l w 0000 3l 3l 3l 3l 3l j
+  k  ll3l 3l 3l 5l │ 4jr4j │ 3l w 0001 3l 3l 3l 3l j  j
+  k  k  ll3l 3l 5l │ 3jr3j │ 3l w 0000 3l 3l 3l j  j  j
+  k  k  k  ll3l 5l │ 2jr2j │ 3l w 0000 3l 3l j  j  j  j
+  k  k  k  k  ll5l │ 1jr1j │ 3l w 0000 3l j  j  j  j  j
+  k  k  k  k  k    │ 4k6l  │                j  j  j  j  j
+  k  k  k  k  k    └ j k ──┘                j  j  j  j  j
+  k  k  k  k  k      j k 3h 3hh             j  j  j  j  j
+  k  k  k  k  k      w 0009 k             j  j  j  j  j
+  k  k  k  k  k                             j  j  j  j  j
+  k  k  k  k  k    ┌───────┐                j  j  j  j  j
+  k  k  k  k  k 3h │ 5jr5j │ 6h 3h 3h 3h 3hhh  j  j  j  j
+  k  k  k  k 3h 3h │ 4jr4j │ 6h 3h 3h 3h 3h 3hhh  j  j  j
+  k  k  k 3h 3h 3h │ 3jr3j │ 6h 3h 3h 3h 3h 3h 3hhh  j  j
+  k  k 3h 3h 3h 3h │ 2jr2j │ 6h 3h 3h 3h 3h 3h 3h 3hhh  j
+  k 3h 3h 3h 3h 3h │ 1jr1j │ 6h 3h 3h 3h 3h 3h 3h 3h 3hhh
+                   │  5h2k │
+                   └─ k j ─┘
+                      k w 0010 j
+                      k 3h 3h 3hhh
+
+Loop, where each track is connected to the next via a spiral:
+
+┌──────────────────┬───────┬───────────────────────────┐
+│ ll3l 3l 3l 3l 5l │ 5jr5j │ 3l w 0007 3l 3l 3l 3l j │
+│ k  ll3l 3l 3l 5l │ 4jr4j │ 3l w 0006 3l 3l 3l j  j │
+│ k  k  ll3l 3l 5l │ 3jr3j │ 3l w 0006 3l 3l j  j  j │
+│ k  k  k  ll3l 5l │ 2jr2j │ 3l w 0006 3l j  j  j  j │
+│ k  k  k  k  ll5l │ 1jr1j │ 3l w 0005 j  j  j  j  j │
+│ k  k  k  k  k ┌──┤ 5k6l  ├───────────┐ j  j  j  j  j │
+│ k  k  k  k  k │  └ j k ──┘           │ j  j  j  j  j │
+│ k  k  k  k  k │    j k 3h 3hh        │ j  j  j  j  j │
+│ k  k  k  k  k │    w 0000 k        │ j  j  j  j  j │
+│ k  k  k  k  k │                      │ j  j  j  j  j │
+│ k  k  k  k  k └──┬───────┬───────────┘ j  j  j  j  j │
+│ k  k  k  k  k 3h │ 5jr4j │ 6h 3h 3h 3hhh  j  j  j  j │
+│ k  k  k  k 3h 3h │ 4jr3j │ 6h 3h 3h 3h 3hhh  j  j  j │
+│ k  k  k 3h 3h 3h │ 3jr2j │ 6h 3h 3h 3h 3h 3hhh  j  j │
+│ k  k 3h 3h 3h 3h │ 2jr1j │ 6h 3h 3h 3h 3h 3h 3hhh  j │
+│ k 3h 3h 3h 3h 3h │ 1jr5j │ 6h 3h 3h 3h 3h 3h 3h 3hhh │
+└──────────────────┤  5h5k ├───────────────────────────┘
+                   └─ k j ─┘
+                      k w 0000 j
+                      k 3h 3h 3hhh

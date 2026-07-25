@@ -1,0 +1,116 @@
+q: mzyiW`z@"
+l: @q@l
+
+   majjll`aW j
+   k           j
+   k  0002244  j
+   k           j
+   k 3hhhhhhhh j 5hhhhhhhhhh
+               j           k
+               j  0002242  k
+               j           k
+               makkll`aW k
+
+Incrementing MUX
+
+j 3hhhhh
+j      k
+W"lyE W"lyEW @q@l j
+j 3hhhhhhhhhhhhhhhh
+j     3k
+WdWWWP3B j 3j 5j X
+      2k lll3l ma`aj 56
+       k 3hhhhhh
+       k lll3l ma`aj 54
+       k 3hhhhhh
+       k lll3l ma`aj 55
+       k 3hhhhhh
+
+Basic on/off propagation
+
+Wyiwr0@"W 0 j 3l j
+j 3hhhhhhhhhhhh 3h jk2h
+llll3l Wyiwr0@"W 0 j llllllll3l
+h 3hhhhhhhhhhhhhhhhhhh
+
+OR gate
+          INPUT
+            ↓ 3l 3l 3l j
+Wyiwr0@"W 0 1j 1k 1k llllll3l l
+h 3hhhhhhhhhh 2h 3h 3h
+
+NAND gate
+          INPUT
+            ↓ 3l 3l 3l j
+Wyiwr0@"W 0 1k 1k 1j llllll3l l
+h 3hhhhhhhhhh 2h 3h 3h
+
+NAND gate with two inputs
+
+Wyiwr0@"W 0 j 3l j
+j 3hhhhhhhhhhhh 3h j
+j             k    j
+j             k 3h 7j7k2h
+j
+Wyiwr0@"W 0 j 3l j
+j 3hhhhhhhhhhhh 3h j
+j             k    j
+j             k 3h 2j2k2h
+j                    3l 3l 3l j
+llll3l Wyiwr0@"W 0 1k 1k 1j llllll3l l
+j 3hhhhhhhhhhhhhhhhh 2h 3h 3h
+j
+h
+
+ADDERS
+
+            ┌─ Lowest carry bit "carry[0]", typically zero
+Wyiwr0@"W 0 j 3l j
+j             b    j
+j             k    j
+j             k    14j14kb
+j
+j           ┌─ Lowest bit in operand A "a[0]"
+Wyiwr0@"W 0 j 3l j ← 
+j             b    j
+j             k    j
+j             k    8j8kb
+j
+j           ┌─ Lowest bit in operand B "b[0]"
+Wyiwr0@"W 0 j 3l j
+j             b    j
+j             k    j
+j             k    2j2kb
+j
+llll3l Wyiwr0@"W 0 1b3jr03jr05k 2b3jr13jr05k 3b3jr03jr15k 4b3jr13jr15k
+j                  b
+j
+j                  1 ← Lowest result bit "r[0]"
+j
+j                  ┌─ Output carry bit "carry[1]" from carry[0] + a[0] + b[0]
+llll3l Wyiwr0@"W 0 j 3l j
+       j             b    j
+       j             k    j
+       j             k    14j14kb
+       j
+       j           ┌─ Second bit in operand A "a[1]"
+       Wyiwr0@"W 0 j 3l j
+       j             b    j
+       j             k    j
+       j             k    8j8kb
+       j
+       j           ┌─ Second bit in operand B "b[1]"
+       Wyiwr0@"W 0 j 3l j
+       j             b    j
+       j             k    j
+       j             k    2j2kb
+       j
+       llll3l Wyiwr0@"W 0 1b3jr03jr05k 2b3jr13jr05k 3b3jr03jr15k 4b3jr13jr15k
+       j                  b
+       j
+       j                  0 ← Second result bit "r[1]"
+       j
+       j
+       j                  1 ← Third result bit "r[2]" (final carry bit)
+       j
+       0h
