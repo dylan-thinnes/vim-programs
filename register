@@ -1,0 +1,13 @@
+ | The left half is a REGISTER | The right half is a SINK    |
+ | It pushes its input on each | It also pushes its input on |
+ | clock cycle, leaving it     | each clock cycle, but       |
+ | where it is                 | consumes it instead         |
+ |                             |                             |
+
+    j <---------------------- 2gE <------------- 2gE
+    j                           k                  k
+    j                           mz`zk 00000      mz`zk 00000
+    j                           k                  k
+  1 Byiw1W@"W gEBj wr12gE 0 Byiwr01W@"W gEBk k
+    j                           k
+    2W -----------------------> k

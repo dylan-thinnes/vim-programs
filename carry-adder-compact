@@ -1,0 +1,104 @@
+0
+q: mzyiW`z@"
+l: @q:sleep 10m@l
+c: @qmzgg`z@c
+s: @q@s
+
+    j ⚡️
+  ┌ j ───────────────────────┐         /^HALT
+  │ 5jWr02jr07kbj            │         k
+  │ Wyiw@"W 0 gEBj 3jr3b │         k
+  1 Byiw1W@"W gEBj 2jr2b │         k
+  1 Byiw1W@"W gEBj 1jr1b │         k
+  │ j    j2j3kw    1kge  │         k
+  │ Wyiw@"W 2 j 3w j 1w  w wr1Bj 0 Byiwr02WR"k 0
+  │ j (^XOR3) gE%gE   ge     b b       k
+  │ Wyiw@"W 2 j j 1w j   │         k
+  │ j (^AND3) gE%gE ge   j   │         k
+  └ j ───────── k ────── j ──┘         k
+    j      3jr14k ge ge ge             k
+  ┌ j ───────────────────────┐         k
+  │ 5jWr02jr07kbj            │         k
+  │ Wyiwr0@"W 0 gEBj 3jr3b │         k
+  1 Byiw1W@"W gEBj 2jr2b │         k
+  1 Byiw1W@"W gEBj 1jr1b │         k
+  │ j    j2j3kw    1kge  │         k              ge
+  │ Wyiw@"W 3 j 3w j 1w  w wr1Bj 0 Byiwr02WR"k 1
+  │ j (^XOR3) gE%gE   ge     b b       k
+  │ Wyiw@"W 3 j j 1w j   │         k
+  │ j (^AND3) gE%gE ge   j   │         k
+  └ j ───────── k ────── j ──┘         k
+    j      3jr14k ge ge ge             k
+  ┌ j ───────────────────────┐         k
+  │ 5jWr02jr07kbj            │         k
+  │ Wyiwr0@"W 0 gEBj 3jr3b │         k
+  1 Byiw1W@"W gEBj 2jr2b │         k
+  1 Byiw1W@"W gEBj 1jr1b │         k
+  │ j    j2j3kw    1kge  │         k              ge
+  │ Wyiw@"W 3 j 3w j 1w  w wr1Bj 0 Byiwr02WR"k 1
+  │ j (^XOR3) gE%gE   ge     b b       k
+  │ Wyiw@"W 3 j j 1w j   │         k
+  │ j (^AND3) gE%gE ge   j   │         k
+  └ j ───────── k ────── j ──┘         k
+    j      3jr14k ge ge ge             k
+  ┌ j ───────────────────────┐         k
+  │ 5jWr02jr07kbj            │         k
+  │ Wyiwr0@"W 0 gEBj 3jr3b │         k
+  1 Byiw1W@"W gEBj 2jr2b │         k
+  1 Byiw1W@"W gEBj 1jr1b │         k
+  │ j    j2j3kw    1kge  │         k              ge
+  │ Wyiw@"W 3 j 3w j 1w  w wr1Bj 0 Byiwr02WR"k 1
+  │ j (^XOR3) gE%gE   ge     b b       k
+  │ Wyiw@"W 3 j j 1w j   │         k
+  │ j (^AND3) gE%gE ge   j   │         k
+  └ j ───────── k ────── j ──┘         k
+    j      3jr14k ge ge ge             k
+  ┌ j ───────────────────────┐         k
+  │ 5jWr02jr07kbj            │         k
+  │ Wyiwr0@"W 0 gEBj 3jr3b │         k
+  1 Byiw1W@"W gEBj 2jr2b │         k
+  1 Byiw1W@"W gEBj 1jr1b │         k
+  │ j    j2j3kw    1kge  │         k              ge
+  │ Wyiw@"W 3 j 3w j 1w  w wr1Bj 0 Byiwr02WR"k 1
+  │ j (^XOR3) gE%gE   ge     b b       k
+  │ Wyiw@"W 3 j j 1w j   │         k
+  │ j (^AND3) gE%gE ge   j   │         k
+  └ j ───────── k ────── j ──┘         k
+    j      3jr14k ge ge ge             k
+  ┌ j ───────────────────────┐         k
+  │ 5jWr02jr07kbj            │         k
+  │ Wyiwr0@"W 0 gEBj 3jr3b │         k
+  1 Byiw1W@"W gEBj 2jr2b │         k
+  1 Byiw1W@"W gEBj 1jr1b │         k
+  │ j    j2j3kw    1kge  │         k              ge
+  │ Wyiw@"W 3 j 3w j 1w  w wr1Bj 0 Byiwr02WR"k 1
+  │ j (^XOR3) gE%gE   ge     b b       k
+  │ Wyiw@"W 3 j j 1w j   │         k
+  │ j (^AND3) gE%gE ge   j   │         k
+  └ j ───────── k ────── j ──┘         k
+    j      3jr14k ge ge ge             k
+  ┌ j ───────────────────────┐         k
+  │ 5jWr02jr07kbj            │         k
+  │ Wyiwr0@"W 0 gEBj 3jr3b │         k
+  0 Byiw1W@"W gEBj 2jr2b │         k
+  1 Byiw1W@"W gEBj 1jr1b │         k
+  │ j    j2j3kw    1kge  │         k              ge
+  │ Wyiw@"W 2 j 3w j 1w  w wr1Bj 0 Byiwr02WR"k 0
+  │ j (^XOR3) gE%gE   ge     b b       k
+  │ Wyiw@"W 2 j j 1w j   │         k
+  │ j (^AND3) gE%gE ge   j   │         k
+  └ j ───────── k ────── j ──┘         k
+    j      3jr14k ge ge ge             k
+  ┌ j ───────────────────────┐         k
+  │ 5jWr02jr07kbj            │         k
+  │ Wyiwr0@"W 0 gEBj 3jr3b │         k
+  0 Byiw1W@"W gEBj 2jr2b │         k
+  1 Byiw1W@"W gEBj 1jr1b │         k
+  │ j    j2j3kw    1kge  │         k              ge
+  │ Wyiw@"W 2 j 3w j 1w  w wr1Bj 0 Byiwr02WR"k 0
+  │ j (^XOR3) gE%gE   ge     b b       k              ge
+  │ Wyiw@"W 2 j j 2w 1w  w wr1Bj 0 Byiwr02WR"k 1
+  │ j (^AND3) gE%gE ge       b b       k
+  └ j ───────────────────────┘         k
+    j                                  k
+    2W ------------------------------> k

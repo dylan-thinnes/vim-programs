@@ -1,0 +1,44 @@
+      ↓ AND3
+  ┌ j ─────── mmj ──────────┐
+  │ j         j3k   1jj 1WW
+  │ Wyiwr0@"W 0 j j  w  k │
+  │ j            gE 1mmgE   │
+  └ j ──────────────────────┘
+
+      ↓ XOR3
+  ┌ j ─────── mmj ──────────┐
+  │ j         j3k   1jj 1WW
+  │ Wyiwr0@"W 0 j 2W j  k │
+  │ j            gE   gE    │
+  └ j ──────────────────────┘
+
+      ↓ OR  
+  ┌ j ─────── mmj ──────────┐
+  │ j         j3k   1jj 1WW
+  │ Wyiwr0@"W 0 j    w  k │
+  │ j            gE   1gE   │
+  └ j ──────────────────────┘
+
+      ↓ AND 
+  ┌ j ─────── mmj ──────────┐
+  │ j         j3k   1jj 1WW
+  │ Wyiwr0@"W 0 j    j  k │
+  │ j            gE   1gE   │
+  └ j ──────────────────────┘
+
+      ↓ REG      
+  ┌ j ─────── mmj ──────────┐
+  │ j         j3k   1jj 1WW
+  │ Wyiwr0@"W 0 j w w w k │ 
+  │ j            gE   1gE   │
+  └ j ──────────────────────┘
+
+   1jj 1WW 2gE 1WW 2gE 1jj
+   1kW  POWER FAN-IN   kgE
+   1jW ┌─────────────┐ 1jj
+   1kk 1WW 2gE 3jr3b │ 1kk
+       1WW 2gE 2jr2b │ 1jj
+       1WW 2gE 1jr1b │ 1kk
+       │       1kge  │ 1WW gEk 1jj
+       └────── 1jj ──┘         
+               1kk         1kk

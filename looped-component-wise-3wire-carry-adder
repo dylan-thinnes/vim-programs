@@ -1,0 +1,64 @@
+             j b b b b b b b b b b b b b b b b b b b ge
+w w w Wlr1hj 1W j  j  j  j  j  j  j  /^HALT     
+↑            j gE gE gE gE gE gE gE gE
+START        j                                       3k
+             j  CARRY                                 k
+           ┌ j ──────────────────┐                    k
+ Wr1gEBj   1 Byiwr01W@"W j 2j  │                    k
+ 1jj       │ j            gE 1gE │                    k
+ 1kk       └ j ───────────── 1jj ┘                    k
+ 1jj         j               1kk                      k
+ 1kk         j               1WW gEk 1Wj 2gE          k
+ 3jj         j  INPUT A                  1jj          k
+           ┌ j ──────────────────────┐   1kk          k
+   .01111110 gEx1b1i.1W@"W j 2j  │   1jj          k
+           │ j                gE 1gE │   1kk          k
+ 1jj       └ j ───────────────── 1jj ┘   1jj          k
+ 5kk         j                   1kk     1kk          k
+ 5jj         j                   1Wj gEk 1jj          k
+ 1kk         j  INPUT B              4jj 1kk          k
+           ┌ j ──────────────────────┐   1jj          k
+   .00111000 gEx1b1i.1W@"W j 2j  │   1kk          k
+           │ j                gE 1gE │   1jj          k
+ 3kk       └ j ───────────────── 1jj ┘   1kk          k
+ 1jj         j                   1kk 1jj 1jj          k
+ 1kk  j b b ge                   1jj 6kk 1kk          k
+ 1jj  j                          1kk 1jj 1jj          k
+ 1kk  j                          jgE 1kk 1kk          k
+ 1jj  j  1jj 1WW 2gE mmW 1WW 3gE 1kk jgE 1jj          k
+ 1kk  j  1kW 1WW gEj 1WW 2gE 1WW 2gE 1kk 1kk          k
+ 1jj  j  1jj 1jj 1jj 1WW 2gE 1WW 2gE 1Wk 2gE          k
+ 1kk  j  1kk 1kk 1kW                                  k
+ 1jj  j  1jj 1jj 1jj                                  k
+ 1kk  j  1kk 1kk 1kk  POWER FAN-IN-OUT                k
+ 1jj  j  1jj 1jj 1jW ┌─────────────────┐              k
+ 1kk  j  1kk 1kk 1kk 1WW 2gE 3jr3b     │              k
+ 1jj  j  1jW 1WW gEk 1WW 2gE 2jr2b     │              k
+ 1kk  j  1kk 1WW 2gE 1WW 2gE 1jr1b     │              k
+ 1jj  j              │   1jj 2kge      │              k
+ 1kk  j              │ w 1kW           │              k
+ 1jj  j              │ k 1Wr1 3j gEb   │              k
+ 1kk  j              │ k 1kr21j2W 1k 1WW 2gE 1jj      k
+ 1jj  j              │ k 2kr32j2W 1k 1Wj 2gE kgE      k
+ 1kk  j              │ k      gE       │ 1jj 1jj      k
+ 1jj  j              └─────────────────┘ 1kk 1kk      k
+ 1kk  j                  1jj 1WW 2gE 1Wk 2gE 1jj      k
+ 1jj  1w w w w j         1kW                 1kk      k
+ 1kk           j  XOR3   1jj                 4jj      k
+ 1jj         ┌ j ─────── 1kk ──────────┐     1kk      k
+ 1kk         │ j         j2k         │   OUT REG1 ↓ k 2Wi0W 1Wi1W 001001110010010. 4B
+ 1jj         │ Wyiwr0@"W 0 j 1WW j 1WW 2gE Wr12gE 0 ByiWr0Wk@"W
+ 1kk         │ j            gE    gE   │              k
+ 1jj         └ j ──────────────────────┘     jgE      k
+ 1kk           j         1jj 1WW 2gE 1WW 2gE 4kk      k
+ 1jj           j  AND3   1kW                          k
+ 1kk         ┌ j ─────── mmj ──────────┐              k
+ 1jj         │ j         j3k         │   OUT REG2   k
+ 1kk         │ Wyiwr0@"W 0 j j mmW 1WW 3gE 1jj      k
+ 1jj         │ j            gE gE      │     kgE      k
+ 1kk         └ j ──────────────────────┘     4jj      k
+ 1jj           j                                      k
+ 1kk           1w w w w w w w w w w w w w w w w w w w k
+ 1jj
+ 1kk                                         4kk
+ 1WW gEk 1WW 2gE 1WW 2gE 1WW 2gE 1WW 2gE 1Wk 2gE

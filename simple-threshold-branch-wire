@@ -1,0 +1,27 @@
+q: mzyiW`z@"
+l: @q@l
+
+j                 Activation threshold, 0-3, if < 3 then left branch is taken, if == 3 then right branch
+j                 ↓
+w w w wyiw@"w 3 j j j j
+                    j j j j
+j b b b b b b b b b b b b w w /^Success
+j
+/^Fail
+
+j               Three inputs
+j               ↓
+w Wyiwr0@"w 0 3Bj w 3jr3j w 7Bj
+w Wyiwr0@"w 0 3Bj w 2jr2j w 7Bj
+w Wyiwr0@"w 0 3Bj w 1jr1j w 7Bj
+j                       1k6l
+j                       j k
+w w w j                 j k
+      j                 j2kw
+      w w Wyiwr0@"w 0 j j j j
+                        ↑ j j j j
+      j b b b b b b b b b b b b w w /^Success
+      j                 ↑
+      /^Fail          ↑ Activation threshold, 0-3
+                          If < 3 then left branch is taken
+                          If == 3 then right branch

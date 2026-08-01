@@ -1,0 +1,37 @@
+q: mzyiW`z@"
+l: @q@l
+
+j
+w w Wyiwr0@"w 0 j j ← INPUT 1
+j <--------------- 3B 2W ---------> j         3Bge
+w w Wyiwr0@"w 0 j j ← INPUT 2   w 2jr2j w k
+                    j 2W ---------> w 1jr1j w j
+j <--------------- 3B                 1k4l    Bge
+j                                     j k
+j                 j b b b b b b b b b b k
+j                 j w w w w w w w w w w k
+j                 j k
+j                 j k
+j              jj k
+w w Wyiwr0@"w 0     j j j ← OR
+                  j 2k  j j j
+                  j k   j w 2W ------> j
+                 2j k   j              2j
+j <------------------ 2ge <------------- 2ge
+j             jkw 2k                 j k
+w w Wyiwr0@"w 0 j j j ← AND        j k
+                    j j j              j k
+                    j b w  2j          j k
+j <-------------- 2ge <----- 2ge       j k
+j                          j k         j k
+j                         2j k         j2k2l
+2W -------------------> Wyiwr0@"w  0 j w jwr1j
+                          2j 2k          wr0j      1 ← OUTPUT 1
+j <--------------------------------------------- 2ge
+j                          j 2k
+j                          j2k2l
+2W --------> Wyiwr0@"w 0 j w jwr1j
+                             wr0j      0 ← OUTPUT 2
+j <----------------------- 2ge
+j
+/^DONE

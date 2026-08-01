@@ -1,0 +1,52 @@
+Zigzags for one polarity (starts with downstroke):
+
+                    1jj
+                    1kk
+                    jgE
+1jj 1WW 2gE 1WW 2gE 1kk
+1kW
+1jj
+1kk
+
+1jj
+1kk
+1jW
+1kk 1WW 2gE 1WW 2gE 1jj
+                    kgE
+                    1jj
+                    1kk
+
+Zigzags for other polarity (starts with upstroke):
+
+                    1kk
+                    1jj
+                    1kk
+1WW gEj 1WW 2gE 1Wk 2gE
+1jj
+1kk
+1jj
+
+1kk
+1jj
+1kk
+1WW gEk 1WW 2gE 1Wj 2gE
+                    1jj
+                    1kk
+                    1jj
+
+Invert rightleft wire's polarity:
+
+1WW 2gE 1WW 2gE 1WW 2gE 1WW 2gE 1WW
+        -----------
+1WW 2gE mmW 1WW 3gE 1WW 2gE 1WW 2gE
+
+Invert updown wire polarity:
+
+1jj   1jj
+1kk   1kk
+1jj | mmj
+1kk | 1jj
+1jj | 2kk
+1kk   1jj
+1jj   1kk
+1kk   1jj

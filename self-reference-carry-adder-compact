@@ -1,0 +1,43 @@
+j
+j
+j w w w /^HALT
+j k
+w Wyiw@"W 1 2W 4jr4b 5gE6j
+w Wyiw@"W 0 2W 3jr3b 5gE6j
+w Wyiw@"W 0 2W 2jr2b 5gE6j
+w Wyiw@"W 1 2W 1jr1b 5gE6j
+    6j             1kw
+      w w w w w w w k
+w Wyiw@"W 1 2W 4jr4b 5gE6j
+w Wyiw@"W 1 2W 3jr3b 5gE6j
+w Wyiw@"W 0 2W 2jr2b 5gE6j
+w Wyiw@"W 0 2W 1jr1b 5gE6j
+    7j    7j       3kw
+      6k    w w w w k
+w 2W ----> Wr0W 0 5jr52ljr6ge 6gE11k
+w 2W ----> Wr0W 0 4jr42ljr5ge 6gE11k
+w 2W ----> Wr0W 1 3jr32ljr4ge 6gE11k
+w 2W ----> Wr0W 1 2jr22ljr3ge jB
+  17k           0 mz11j6lvyr0`zgER"B
+    j     j       2kW
+j b b 7k  j 7k  j mz3kgEr1`z1j B b b b b b b b
+j w w k   j k   j w w w w w w w w w w w w 2W k j
+j k j b b b k   j                            k j
+j k j w w w k   j 4k b b b b b b b b b b b b k j 3B
+j k j k         j                            k j k
+j k j k     j b b       2W -------------> j  k j k
+j k j k     j      3jr14k ge ge ge b b b  j  k j k
+j k j k   ┌ j ───────────────────────┐ k  j  k j k
+j k j k   │ 5jWr02jr07kbj            │ k  j  k j k
+j k 2j    │ Wyiwr0@"W 0 gEBj 3jr3b │ k  j  k j k
+Wr1ge1k6h 0 Byiwr01W@"W gEBj 2jr2b │ k  j  k j k
+Wr1ge3k2h 0 Byiwr01W@"W gEBj 1jr1b │ k 5j  k j k
+          │ j    j2j3kw    2kge  │       k j k
+          │ Wyiw@"W 1 j 3w j 1w  w w w w k j k
+          │ j (^XOR3) gE%gE   ge     b b b b b b k
+          │ Wyiw@"W 1 j j 1w j   │           k
+          │ j (^AND3) gE%gE ge   j   │ 5k j      k
+          └ j ───────── k ────── j ──┘ k  j      k
+            j           k        2W -> k  j      k
+            j           k <------------ 2gE      k
+            2W --------------------------------> k

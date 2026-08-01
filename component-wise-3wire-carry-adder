@@ -1,0 +1,57 @@
+             j  INPUT
+           ┌ j ──────────────────┐
+           1 Byiw1W@"W j 2j  │
+           │ j            gE 1gE │
+           └ j ───────────── 1jj ┘
+             j               1kk
+             j               1WW gEk 1Wj 2gE
+             j  INPUT                    1jj
+           ┌ j ──────────────────┐       1kk
+           1 Byiw1W@"W j 2j  │       1jj
+           │ j            gE 1gE │       1kk
+           └ j ───────────── 1jj ┘       1jj
+             j               1kk         1kk
+             j               1WW gEk 1jj 1jj
+             j  INPUT                kgE 1kk
+           ┌ j ──────────────────┐   1jj 1jj
+           1 Byiw1W@"W j 2j  │   1kk 1kk
+           │ j            gE 1gE │   1jj 1jj
+           └ j ───────────── 1jj ┘   1kk 1kk
+             j               1kk     1jj 1jj
+     j b b b b               1jj     1kk 1kk
+     j                       1kk     1jj 1jj
+     j                       jgE     1kk 1kk
+     j   1jj 1WW 2gE 1WW 2gE 1kk     jgE 1jj
+     j   1kW 1WW gEj 1WW 2gE 1WW 2gE 1kk 1kk
+     j   1jj 1jj 1jj 1WW 2gE 1WW 2gE 1Wk 2gE
+     j   1kk 1kk 1kW
+     j   1jj 1jj 1jj
+     j   1kk 1kk 1kk  POWER FAN-IN-OUT
+     j   1jj 1jj 1jW ┌─────────────────┐
+     j   1kk 1kk 1kk 1WW 2gE 3jr3b     │
+     j   1jW 1WW gEk 1WW 2gE 2jr2b     │
+     j   1kk 1WW 2gE 1WW 2gE 1jr1b     │
+     j               │   1jj 1kge      │
+     j               │ w 1kW           │
+     j               │ k 1Wr1 3j gEb   │
+     j               │ k 1kr21j2W 1k 1WW 2gE 1jj
+     j               │ k 2kr32j2W 1k 1Wj 2gE kgE
+     j               │ k      gE       │ 1jj 1jj
+     j               └─────────────────┘ 1kk 1kk
+     j                   1jj 1WW 2gE 1Wk 2gE 1jj
+     w w w w w j         1kW                 1kk
+               j  XOR3   1jj                 4jj
+             ┌ j ─────── 1kk ──────────┐     1kk
+             │ j         j2k         │
+             │ Wyiwr0@"W 0 j 1WW j 1WW 2gE gE/^HALT
+             │ j            gE    gE   │
+             └ j ──────────────────────┘     jgE
+               j         1jj 1WW 2gE 1WW 2gE 4kk
+               j  AND3   1kW
+             ┌ j ─────── mmj ──────────┐
+             │ j         j3k         │
+             │ Wyiwr0@"W 0 j j mmW 1WW 3gE gE/^HALT
+             │ j            gE gE      │
+             └ j ──────────────────────┘
+               j
+               j
