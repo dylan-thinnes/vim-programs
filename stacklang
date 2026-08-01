@@ -1,0 +1,22 @@
+r: @cwma*gg}nWy$@"
+c: gg}/Commands/*
+s: gg}/Stack
+n: @cr jr*
+
+Implementation
+label:     @n
+push:      `awyiw@sop@n
+duplicate: `awyiw@s@"jyy@sp@n
+jump:      `awwyiw/label """0r*`a0r 
+add:       @sjdiw"_dd@"@n
+
+Stack
+
+Commands
+* push 0
+  push 1
+  label "start"
+    duplicate 2
+    duplicate 2
+    add
+  jump "start"

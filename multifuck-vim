@@ -1,0 +1,45 @@
+p: gg}/Pointers/*
+m: @pwyiwgg}/Memory@"j
+i: @pwwyiwgg}/Instructionsj0@"l
+Step
+s: @iv*gg}n1f: vf:hy@"
+d: @iv*gg}n2f: vf:hy@"
+f: @iv*gg}n3f: vf:hy@"
+Loopstep
+l: @pwwwyiW@"
+Three possible procedures: step, ignore, cancelloop
+c: @pr_gg}/Pointersjj0r*gg}/Stagesj0"ayiWW"byiWddGp
+n: @pww
+t: @pr_jr*@l
+
+Code
++ :mm:mm:@m@n:
+- :mm:mm:@m@n:
+> :mm:mm:@pw@n:
+< :mm:mm:@pw@n:
+[ :mm:@iv%hygopvr"zddd@pww@z:mm:
+] :mm:@iv%hygopvr"zddd@pww@z:mm:
+& :@pwwyyP0r_wwErb:mm:mm:
+# :@pdd0kr*:@pdd0kr*:@pdd0kr*:
+
+Memory
+1
+0
+0
+0
+0
+0
+
+Instructions
+ +[+++]+
+
+Pointers
+_ m i ss c
+* 1 2 @a
+_ X X @c
+
+Stages
+@f@t @t increments, moves, forks
+@t @p0WWEra@t revive anything born
+@s@t @t fork
+@d@t @t conditional jumps

@@ -1,0 +1,40 @@
+r: @c*gg}nWy$@"`t
+c: gg}}/Commandsj
+d: gg}}/Directionw
+p: gg}}/Pen
+g: gg}}/Grid/t
+n: @cdedw
+
+Implementation
+Turn: @djd$p@n
+Move: @dvy`tr*@"mt@n
+PenUp: gg}/MoveW7 r @n
+PenDown: gg}/MoveW7 r*@n
+
+Grid
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+
+Direction hjlk
+          ←↓→↑
+
+Commands
+PenDown
+Move Move Move
+Turn
+Move Move Move
+Turn
+Move Move Move
+Turn
+Move
+PenUp
+Move Move

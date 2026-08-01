@@ -1,0 +1,8 @@
+phase 0: revive anything born
+coalesce
+phase 1: fork
+coalesce
+phase 2: conditional jumps
+coalesce
+phase 3: increments, moves, forks
+coalesce

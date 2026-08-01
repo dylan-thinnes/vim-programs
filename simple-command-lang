@@ -1,0 +1,44 @@
+q: @pwma*gg}nf:wy$@"
+w: @pr jr*
+p: gg}}}/Program/*
+v: gg}}}/Variables
+l: @q@l
+
+Implementation
+} : @pr w%0r*
+initialize : `awy$@v}Op@w
+decrement : `awwyiwb*@v/€ku€kuw@"@w
+increment : `awwyiwb*@v/€ku€kuw@"@w
+while : @pww*@v/€ku€kuwv*gg}}nf:wy$@"
+
+0 : @pr $%0jr*
+123456789 : @w
+
+Variables
+n 100
+a 55
+b 89
+c 0
+
+Program
+  initialize n 10
+  initialize a 0
+  initialize b 1
+  initialize c 0
+* while n {
+    decrement n 1
+    while b {
+      decrement b 1
+      increment a 1
+      increment c 1
+    }
+    while a {
+      decrement a 1
+      increment b 1
+    }
+    while c {
+      decrement c 1
+      increment a 1
+    }
+  }
+  increment a 3
