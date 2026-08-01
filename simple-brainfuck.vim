@@ -1,5 +1,5 @@
 #!/usr/bin/env -S nvim -s load-registers-and-run-loop
-y: gg}/Memory/*  ← goto (M)emory pointer
+m: gg}/Memory/*  ← goto (M)emory pointer
 i: gg}/Instrs/*  ← goto (I)nstruction pointer
 n: @ir_lr*           ← move the instruction pointer to the (N)ext instruction
 b: @ir_k%jr*         ← move the instruction pointer to the matching (B)racket
