@@ -1,0 +1,88 @@
+augroup SourceWireMacros
+  autocmd!
+  autocmd BufWritePost <buffer> :normal ,s
+augroup END
+
+let maplocalleader = ","
+
+let directions = {
+    \ '^': [0, '1k', [-1,  0], 'V'],
+    \ '>': [1, '4l', [ 0,  4], '<'],
+    \ 'V': [2, '1j', [ 1,  0], '^'],
+    \ '<': [3, '4h', [ 0, -4], '>'],
+    \ }
+
+highlight MyGroup ctermbg=green guibg=green
+function HighlightPosWire (pos) abort
+  let preceding_bytes = strlen(strcharpart(getline(a:pos[0]), 0, a:pos[1] - 1))
+  call matchadd("MyGroup", "\\%" . string(preceding_bytes + 1) . "c\\%" . string(a:pos[0]) . "l...")
+endfunction
+function ClearHighlighting ()
+  call clearmatches()
+endfunction
+
+function V2Plus (va, vb)
+  return [a:va[0] + a:vb[0], a:va[1] + a:vb[1]]
+endfunction
+
+function CursorPos ()
+  let l:pos = getcharpos('.')
+  return [l:pos[1], l:pos[2]]
+endfunction
+
+function GetChar (pos)
+  let l:row = a:pos[0]
+  let l:col = a:pos[1]
+  let result = strgetchar(getline(l:row), l:col - 1)
+  return nr2char(result)
+endfunction
+
+function Debug () abort
+  call ClearHighlighting()
+  if GetChar(CursorPos()) == 'L'
+    let l:dir1 = GetChar(V2Plus(CursorPos(), [0, 1]))
+    let l:dir2 = GetChar(V2Plus(CursorPos(), [0, 2]))
+    let l:initial_cpos = CursorPos()
+    "call SearchInDirection(l:initial_cpos, l:dir1)
+    "call SearchInDirection(l:initial_cpos, l:dir2)
+    call HighlightPosWire(CursorPos())
+    call VisualSearchInDirection(l:dir1)
+    call setcursorcharpos(l:initial_cpos[0], l:initial_cpos[1])
+    call VisualSearchInDirection(l:dir2)
+    call setcursorcharpos(l:initial_cpos[0], l:initial_cpos[1])
+  else
+    echo 'Got nothing!'
+  endif
+endfunction
+
+"function SearchInDirection (pos, direction) abort
+"  let l:delta = g:directions[a:direction][2]
+"  let l:pos = V2Plus(a:pos, l:delta)
+"  call HighlightPosWire(l:pos)
+"  while GetChar(l:pos) != 'L'
+"    redraw
+"    sleep 300m
+"    redraw
+"    let l:pos = V2Plus(l:pos, l:delta)
+"    call HighlightPosWire(l:pos)
+"  endwhile
+"  normal! o
+"endfunction
+
+function VisualSearchInDirection (direction) abort
+  let l:move = g:directions[a:direction][1]
+  echom l:move
+  execute ("normal! \<C-V>" . l:move)
+  call HighlightPosWire(CursorPos())
+  while GetChar(CursorPos()) != 'L'
+    execute ("normal! " . l:move)
+    call HighlightPosWire(CursorPos())
+  endwhile
+  normal! o
+endfunction
+
+function FindAdjacent ()
+endfunction
+
+nnoremap <localleader>d :call Debug()<cr>
+nnoremap <localleader>s :so wire-macros<cr>
