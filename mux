@@ -1,0 +1,83 @@
+Different iterations of multi-wire muxes
+
+j      2j    2j    2j
+j      kk    kk    kk
+j   j14jorj2kmmmmmm
+j      j     k     k W 0 j
+j      j     k erkwk ↕     j  
+j      j     k k   k W 0 j
+j      j erkwk ↕   k       j  
+j      j k   k j   k W 0 j
+j      j k   k erkwk ↕     j  
+j      j k   k     k W 0 j
+1W erkwk ↕   k     k       j  
+       j j   k     k W 0 j
+       j j   k erkwk ↕     j  
+       j j   k k   k W 0 j
+       j erkwk ↕   k       j  
+       j     k j   k W 0 j
+       j     k erkwk ↕     j  
+       j     k     k W 1 j
+j   k14krk15j6h1mm gE gE b
+j                             
+/^HALT
+
+j      2j    2j    2j
+j      kk    kk    kk
+j   j14jorj2kmmmmmm
+j      k     k     k 7j
+j      k     k erkwk 6j
+j      k     k k   k 5j
+j      k erkwk ↕   k 4j
+j      k k   k j   k 3j
+j      k k   k erkwk 2j
+j      k k   k     k 1j
+1W erkwk ↕   k     k W 0 j
+       k j   k     k W 0 j
+       k j   k erkwk W 0 j
+       k j   k k   k W 0 j
+       k erkwk ↕   k W 0 j
+       k     k j   k W 0 j
+       k     k erkwk W 0 j
+       k     k     k W 0 j
+j   k14krk15j6h1mm gE gE b
+j                           
+/^HALT
+
+ j     2j    2j    2j
+ j     kk    kk    kk
+ j  j7jor12kmmmmmmmm
+ 1W mmwkj mmwkj mmwkj W 0 j
+       k  j  k  j  k  W 0 j
+       k  j  k  mmwkj W 0 j
+       k  j  k     k  W 0 j
+       k  mmwkj mmwkj W 0 j
+       k     k  j  k  W 1 j
+       k     k  mmwkj W 0 j
+       k     k     k  W 0 j
+j  k7krk8j6hmmmmmm gE gE gE
+j                            
+/^HALT
+
+j    1    0    1    0                     
+w 1W kvy@"jjmmmmmm                    
+j    wk   wk   wk   4gE                   
+j j15jor22kmmmmmmmmmm                   
+1W wk1j wk1j wk1j wk1j W25W 1W j j 2W j      
+     1  j 1  j 1  j 1  W25W 1W j j 2W j      
+     1  j 1  j 1  wk1j W25W 1W j j 2W j      
+     1  j 1  j 1    1  W25W 1W j j 2W j      
+     1  j 1  wk1j wk1j W25W 1W j j 2W j      
+     1  j 1    1  j 1  W25W 1W j j 2W j      
+     1  j 1    1  wk1j W25W 1W j j 2W j      
+     1  j 1    1    1  W25W 1W j j 2W j      
+     1  wk1j wk1j wk1j W25W 1W j j 2W j      
+     1    1  j 1  j 1  W25W 1W j j 2W j      
+     1    1  j 1  wk1j W25W 1W j j 2W j      
+     1    1  j 1    1  W25W 1W j j 2W j      
+     1    1  wk1j wk1j W25W 1W j j 2W j      
+     1    1    1  j 1  W25W 1W j j 2W j      
+     1    1    1  wk1j W25W 1W j j 2W j      
+     1    1    1    1  W25W 1W j j 2W j      
+j k15kr116j5hmmmmmm gE               
+j                         
