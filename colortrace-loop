@@ -1,0 +1,23 @@
+highlight MyGroup guibg=#FF8800
+m: :call matchadd("MyGroup", "\\%" . string(line('.')) . "l\\%" . string(virtcol('.')) . "v.")
+c: :call clearmatches("MyGroup")
+q: mzyiW`z@"
+l: @q:sleep 30m@m@l
+
+
+j   w w j   w w j   w w j   w w j   w w j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+j   k   j   k   j   k   j   k   j   k   j
+w w k   w w k   w w k   w w k   w w k   j
