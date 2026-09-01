@@ -1,21 +1,25 @@
 augroup SourceWireMacros
   autocmd!
-  autocmd BufWritePost <buffer> :normal ,s
+  autocmd BufWritePost <buffer> :source wire-macros
 augroup END
 
 let maplocalleader = ","
 
 let directions = {
-    \ '^': [0, '1k', [-1,  0], 'V'],
+    \ '^': [0, '1k', [-1,  0], 'v'],
     \ '>': [1, '4l', [ 0,  4], '<'],
-    \ 'V': [2, '1j', [ 1,  0], '^'],
+    \ 'v': [2, '1j', [ 1,  0], '^'],
     \ '<': [3, '4h', [ 0, -4], '>'],
     \ }
 
-highlight MyGroup ctermbg=green guibg=green
-function HighlightPosWire (pos) abort
+highlight OriginWire guibg=#880088
+highlight NodeWire guibg=#000088
+highlight IntermediateWire guibg=green
+highlight NegWire guibg=#CC5500
+highlight PosWire guibg=#CD7F32
+function HighlightWire (name, pos) abort
   let preceding_bytes = strlen(strcharpart(getline(a:pos[0]), 0, a:pos[1] - 1))
-  call matchadd("MyGroup", "\\%" . string(preceding_bytes + 1) . "c\\%" . string(a:pos[0]) . "l...")
+  call matchadd(a:name . "Wire", "\\%" . string(preceding_bytes + 1) . "c\\%" . string(a:pos[0]) . "l...")
 endfunction
 function ClearHighlighting ()
   call clearmatches()
@@ -30,6 +34,11 @@ function CursorPos ()
   return [l:pos[1], l:pos[2]]
 endfunction
 
+function SetCursor (pos)
+  let [l:row, l:col] = a:pos
+  call setcursorcharpos(l:row, l:col)
+endfunction
+
 function GetChar (pos)
   let l:row = a:pos[0]
   let l:col = a:pos[1]
@@ -37,52 +46,82 @@ function GetChar (pos)
   return nr2char(result)
 endfunction
 
-function Debug () abort
-  call ClearHighlighting()
-  if GetChar(CursorPos()) == 'L'
-    let l:dir1 = GetChar(V2Plus(CursorPos(), [0, 1]))
-    let l:dir2 = GetChar(V2Plus(CursorPos(), [0, 2]))
-    let l:initial_cpos = CursorPos()
-    "call SearchInDirection(l:initial_cpos, l:dir1)
-    "call SearchInDirection(l:initial_cpos, l:dir2)
-    call HighlightPosWire(CursorPos())
-    call VisualSearchInDirection(l:dir1)
-    call setcursorcharpos(l:initial_cpos[0], l:initial_cpos[1])
-    call VisualSearchInDirection(l:dir2)
-    call setcursorcharpos(l:initial_cpos[0], l:initial_cpos[1])
-  else
-    echo 'Got nothing!'
-  endif
+function AvailableDirs (initial_pos, exclusions) abort
+  let l:dir1 = GetChar(V2Plus(a:initial_pos, [0, 1]))
+  let l:dir2 = GetChar(V2Plus(a:initial_pos, [0, 2]))
+  let l:worklist = [[l:dir1, a:initial_pos], [l:dir2, a:initial_pos]]
+  let l:worklist = filter(l:worklist, {idx, val -> stridx('np' . a:exclusions, val[0]) == -1})
+  return l:worklist
 endfunction
 
-"function SearchInDirection (pos, direction) abort
-"  let l:delta = g:directions[a:direction][2]
-"  let l:pos = V2Plus(a:pos, l:delta)
-"  call HighlightPosWire(l:pos)
-"  while GetChar(l:pos) != 'L'
-"    redraw
-"    sleep 300m
-"    redraw
-"    let l:pos = V2Plus(l:pos, l:delta)
-"    call HighlightPosWire(l:pos)
-"  endwhile
-"  normal! o
-"endfunction
+function Polarity (initial_pos, exclusions) abort
+  let l:p1 = GetChar(V2Plus(a:initial_pos, [0, 1]))
+  let l:p2 = GetChar(V2Plus(a:initial_pos, [0, 2]))
+  return stridx('np', l:p1) != -1 ? l:p1 : l:p2
+endfunction
 
-function VisualSearchInDirection (direction) abort
+function InvertPolarity (polarity) abort
+  return a:polarity == 'n' ? 'p' : 'n'
+endfunction
+
+function VisualSearchInDirection (direction, initial_pos) abort
+  call SetCursor(a:initial_pos)
   let l:move = g:directions[a:direction][1]
-  echom l:move
-  execute ("normal! \<C-V>" . l:move)
-  call HighlightPosWire(CursorPos())
+  let l:positions = [CursorPos()]
+  execute ("normal! " . l:move)
   while GetChar(CursorPos()) != 'L'
+    redraw
+    sleep 10m
+    call HighlightWire("Intermediate", CursorPos())
+    let l:positions += [CursorPos()]
     execute ("normal! " . l:move)
-    call HighlightPosWire(CursorPos())
   endwhile
-  normal! o
+  call HighlightWire("Node", CursorPos())
+  let l:positions += [CursorPos()]
+  return l:positions
 endfunction
 
-function FindAdjacent ()
+function Search () abort
+  let l:initial_pos = CursorPos()
+  call HighlightWire("Origin", CursorPos())
+  let l:chords = []
+  let l:endpoints = []
+  let l:worklist = AvailableDirs(l:initial_pos, "")
+  let l:idx = 0
+  while l:idx < len(l:worklist)
+    let [l:direction, l:start_node] = l:worklist[l:idx]
+    let l:next_node = VisualSearchInDirection(l:direction, l:start_node)[-1]
+    let return_direction = g:directions[l:direction][3]
+    let l:new_work = AvailableDirs(l:next_node, return_direction)
+    if len(l:new_work) == 0
+      let l:endpoints += [l:next_node]
+    else
+      let l:worklist += l:new_work
+    endif
+    let l:idx += 1
+    let l:chords += [[l:start_node, l:next_node]]
+  endwhile
+  call SetCursor(l:initial_pos)
+  return [l:chords, l:endpoints]
 endfunction
 
-nnoremap <localleader>d :call Debug()<cr>
-nnoremap <localleader>s :so wire-macros<cr>
+function AssignPolarities (info) abort
+  let l:dist = 0
+  let [l:chords, l:endpoints] = a:info
+  for chord in l:chords
+    let l:dist += abs(chord[1][0] - chord[0][0])
+    let l:dist += abs(chord[1][1] - chord[0][1]) / 4
+  endfor
+  let l:dist += 1
+  let l:polarity = Polarity(l:starting_endpoint, '')
+  let l:node = l:endpoints[0]
+  let l:direction = AvailableDirs(l:node, "")[0][0]
+  for l:position in VisualSearchInDirection(l:direction, l:starting_endpoint)
+    call HighlightWire(l:polarity == 'n' ? 'Neg' : 'Pos', l:position)
+    let l:polarity = InvertPolarity(l:polarity)
+  endfor
+  echom l:polarity
+endfunction
+
+nnoremap <localleader>c :call ClearHighlighting()<cr>
+nnoremap <localleader>s :call Search()<cr>
