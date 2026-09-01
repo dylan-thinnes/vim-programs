@@ -1,0 +1,74 @@
+q: mzyiW`z@"
+l: @q@l
+
+highlight MyGroupB guibg=#FF8800
+highlight MyGroupA guibg=#8888FF
+call clearmatches("MyGroupA")
+call clearmatches("MyGroupB")
+call matchadd("MyGroupA", " 0 ")
+call matchadd("MyGroupB", " 1 ")
+
+w w w w w w w w 1w j   w w w w w j ← POWER RAIL IN
+k                  j   k       ┌ j ──────────────────────────────────────────────┐
+k                  jWB       │ 2W Bj 3W 2B 1Bmm 9jctj1fjlctW1fklctj19k2B │
+k 4WjB 3Wr1jB jW Wvyr0B@"B 0 BvyW@"W gEBj 8j1fk1F^8k ← WRITE/READ      │
+k 4WjB 3Wr1jB jW Wvyr0B@"B 0 BvyW@"W gEBj 7j3F^7k    ← Reg[0]          │
+k 4WjB 3Wr1jB jW Wvyr0B@"B 0 BvyW@"W gEBj 6j6F^6k    ← Reg[1]          │
+k 4WjB 3Wr1jB jW Wvyr0B@"B 1 BvyW@"W gEBj 5j12F^5k   ← Reg[2]          │
+k 4WjB 3Wr1jB jW Wvyr0B@"B 0 BvyW@"W gEBj 4j24F^4k   ← Reg[3]          │
+k 4WjB 3Wr1jB jW Wvyr0B@"B 1 BvyW@"W gEBj 3jfj1F^3k  ← Bit[0]          │
+k 4WjB 3Wr1jB jW Wvyr0B@"B 1 BvyW@"W gEBj 2jfj2F^2k  ← Bit[1]          │
+k    3Wj 3Wr1jB jW Wvyr0B@"B 0 BvyW@"W gEBj 1jfj4F^1k  ← Bit[2]          │
+k                  j           │ w w w w 2W  ^ jbj13j4W1k2j
+k                  w w 11k     │               1kEhr1B b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b │
+k                              ├─────────────────────────────────────────────────────────────────────────────────────────┐ j 2W gEBk W4gE 438
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              │ 2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      2jr1W      │ j k │
+k                              │ jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w jvyr0@"w │ j k │
+k                              │ 0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    0 3W 3W    │ j k │
+k                              └─────────────────────────────────────────────────────────────────────────────────────────┘ j ──┘
+1k b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
