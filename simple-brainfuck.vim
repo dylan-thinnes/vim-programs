@@ -1,4 +1,4 @@
-#!/usr/bin/env -S nvim -s load-registers-and-run-loop
+#!/usr/bin/env -S nvim -u NONE -s load-registers-and-run-loop
 m: gg}/Memory/*  ← goto (M)emory pointer
 i: gg}/Instrs/*  ← goto (I)nstruction pointer
 n: @ir_lr*           ← move the instruction pointer to the (N)ext instruction
@@ -19,13 +19,6 @@ Code
 
 Memory
 * 0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
   0
   0
   0
