@@ -1,0 +1,35 @@
+↓ Start here, with your cursor on j,
+↓ and type the following: yiW@"
+j"qyiWj@q
+mzyiW`z@"
+j0"ly$j@l
+@q:sleep 50m@l
+j
+j b b b b b b       │
+j           k       │   20 steps/turn
+j           k 00029 │ * 50ms/step 
+j           kgE   │ = 1s/turn 
+w w w w w w k       │
+
+j"qyiWj@q
+mzyiW`z@"
+j0"ly$j@l
+@q:sleep 50m@l
+2j
+
+Wy$Bj@" :!xxx play -n synth 0.1 sin 880
+j
+j
+j
+j
+Wy$Bj@" :!xxx play -n synth 0.1 sin 440
+j
+j
+j
+j
+Wy$Bj@" :!xxx play -n synth 0.1 sin 220
+j
+j
+j
+j
+{j
