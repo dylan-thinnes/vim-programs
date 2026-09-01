@@ -1,0 +1,58 @@
+
+                                           START j b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b gE
+                                                 j
+                               CTRL LROP : 0 1 0 BvyW@"W 2BdWF:lpfBj 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 3W 2B 1B 2W 2B Wj 2B
+                               CTRL R/W  : 1 0 0 BvyW@"W 2BdWF:lpfBj 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 3W    2j    3B 2W 2B 3j
+                               CTRL BITI : 1 0 0 BvyW@"W 2BdWF:lpfBj 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 5j                                                          2k             kB
+                               CTRL R[0] : 0 0 1 BvyW@"W 2BdWF:lpfBj 2W 2B 2j                      kB      5k                                                  7j             1k
+                               CTRL R[1] : 0 1 0 BvyW@"W 2BdWF:lpfBj Wj 2B kB                                                                                                 2j
+                               CTRL R[2] : 1 0 0 BvyW@"W 2BdWF:lpfBj 2j 2j 2j 2j 1W 2W 3B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B mmWW  2k  2W 4B 2W 2B 2W 2B 1Wj 2B
+                                                 j                       kB 2k 2k kW                                                                                              2j                        2j
+                               j b b b b b b b b 2W 2B 2W 2B 2W 2B 6W    2j 2j 2j 2j  6B 2W mm2B 2j    2j      2j b b b b b b b b b b b b b b b b b b b b b b b b b b b b         2k                        2k
+                               8j                                        2k 2k 2k 2k          ┌  kB ── 5k ──── 5k ───────────────────────────┐                          k         2j                        2j
+       2j 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B Wk 2B jB 2j 2j          │  1j    WBk 0 Bvyr0W@"W 1Bj 3BjW        │                     7k   k         2k                        2k
+       kW 2W Bj 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2k 2k 2k 2j 2W 2B Wj WvyB@"B 0 Bvyr0W@"W 1Bj 3Br1jW 4BjW │                     2j   k         2j                        2j
+       2j 2j 2j 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B Wk 2B jB kW 2W Bj Wj WvyB@"B 0 Bvyr0W@"W 1Bj 3Br1jW 4BjW │                     2k   k         2k                        2k
+       2k 2k kW 2W Bj 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2k jB 2j 2j Wj WvyB@"B 0 Bvyr0W@"W 1Bj 3Br1jW 4BjW │                     2j   k         2j                        2j
+       2j 2j 2j 2j 2j 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 3W 2B 1B 2k 2k kW │  5k          0 Bvyr0W@"W B5k /^HALT      │                     2k   k         2k                        2k
+       2k 2k 2k 2k kW 2W Bj 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 3W 2B 1B Wk 2B jB └──────────────────────────────────────────────┘                     2j   k         2j                        2j
+       2j 2j 2j 2j 2j 3j 2j 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 2W 2B 3W 2B 1B 2W 2B 2k                                                                      2k   k         2k                        2k
+  ┌─── 2k 2k 2k 2k 2k 2k kW    w jvyj@"WB ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐ 2j   k         2j                        2j
+  │    1j 2j 1j 2j 2j 3k Wver2Bk 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 Bver1W2j            │ 2k   k         2k                        2k
+  │    2j 2k 2j 2k 2k jW         jvyj@"WB                                                    jvyj@"WB                                        1k                  │ 2j   k         2j                        2j
+  │    3k 2j 3k 2j 2j 2k Wver22B 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 Bver1W2j            │ 2k   k         2k                        2k
+  │  mm3j  3j4l    2k            jvyj@"WB                      jvyj@"WB                      jvyj@"WB                      jvyj@"WB          2k                  │ 2j   k         2j                        2j
+  │     2j2l  2j6l 2W Bk Wver22B 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 Bver1WjW            │ 2k   k         2k                        2k
+  │  mm3k 4k2h 3k4h 4k6h         j              j              j              j              j              j              j              j  mm2k 2W 2B 2W 2B  j │ 2j   k         3j                        2j
+  j j22jor22k1mmmmmmmm     2gE j23jor1kgE1mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ────────────┐ k   j ┤ 2k   k         2k                        2k
+  1W wk1j wk1j wk1j wk1j w w w w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w │ k j j │ 2j   k         2W Bk 2W 2B 2j            2j
+  │  k 1  j 1  j 1  j 1  w w w w 2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        │ k j j │ 2k   k         1j          kB            2k
+  │  k 1  j 1  j 1  j 1          2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 3W 3W     │ k j j │ 2j   k         3j          12j           2j
+  │  k 1  j 1  j 1  wk1j w w w w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w │ k j j │ 2k   k       ┌ 3k ────────────────────── 2k ┐
+  │  k 1  j 1  j 1  j 1  w w w w 2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        │ k j j │ 2j   k       │ 2W Bk jB         2B       jB │
+  │  k 1  j 1  j 1  j 1          2W 0 4W 4W     2W 1 4W 4W     2W 1 4W 4W     2W 1 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 1 4W 4W     2W 0 3W 3W     │ k j j │ 2k   k       │ 2j 0 Bvyr0W@"W Bj 2W 2B 2k │
+  │  k 1  j 1  wk1j wk1j w w w w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w │ k j j │ 2j   k 1W 3j │ 2k 0 Bvyr0W@"W 2k 1B 4j 1B │
+  │  k 1  j 1  j 1  j 1  w w w w 2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        │ k j j │ 2k   k Wr1Bk 0 Bvyr0W@"W Bj 1k2BkE2jB │
+  │  k 1  j 1  j 1  j 1          2W 1 4W 4W     2W 0 4W 4W     2W 1 4W 4W     2W 0 4W 4W     2W 1 4W 4W     2W 0 4W 4W     2W 1 4W 4W     2W 0 3W 3W     │ k j j │ 2j   k Wr1Bj 0 Bvyr0W@"W Bj 2k2BkE3jB │
+  │  k 1  j 1  j 1  wk1j w w w w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w │ k j j │ 2k   k 2j 2j │ jW             3k2BkE4jj │
+  │  k 1  j 1  j 1  j 1  w w w w 2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        │ k j j │ 2j   k 2k 3k │ 4k 2W 1mm2B Wj 2B jWr15k2gEB │
+  │  k 1  j 1  j 1  j 1          2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 3W 3W     │ k j j │ 2k   k 2j 2j │                Wvyr0B@"k 0 │
+  │  k 1  wk1j wk1j wk1j w w w w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w │ k j j │ 2j   k 2k 2k └──────────────────────────────┘
+  │  k 1    1  j 1  j 1  w w w w 2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        │ k j j │ 2k ┌ k 2j 2j ───────┐      12k
+  │  k 1    1  j 1  j 1          2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 3W 3W     │ k j j │ 2j │ k 2k 2k 2B 2B  │      2j
+  │  k 1    1  j 1  wk1j w w w w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w │ k j j │ 2k │ k 1B 1B 1k 1k  │      2k
+  │  k 1    1  j 1  j 1  w w w w 2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        │ k j j │ 2W Bk 2jB12kB     │      2j
+  │  k 1    1  j 1  j 1          2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 3W 3W     │ k j j │ 2W Bj 1jB21kB     │      2k
+  │  k 1    1  wk1j wk1j w w w w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w │ k j j │ 2j │ 0 Bvyr03k@"W │      2j
+  │  k 1    1    1  j 1  w w w w 2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        │ k j j │ 2k └── k ───────────┘      2k
+  │  k 1    1    1  j 1          2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 3W 3W     │ k j j │ 2j     k                   2j
+  │  k 1    1    1  wk1j w w w w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w 2W 2jvyr0@"w │ k j j │ 2k     k                   2k
+  │  k 1    1    1    1  w w w w 2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        2W jr1w        │ k j j │ 1j     k                   2j
+ j  k22kr123j5hmmmmmm          2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 4W 4W     2W 0 3W 3W     │ k j j │ 2j     k                   2k
+ j  2k           w    k       k23kr224j15h1mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm gE B B 2jr02k1gE j 2gE 3k     k                   2j
+ j   k B B B B B B gE 3k22kr225jB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B gE B B 1jr01k1gE mm1Wk jB     k                   2k
+ j                                                                                                                                         DONTWRIT0BACK → 0 Bvy@"k     k                   jB
+ j  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── kj1W mm3W    k    3B 2W 2B 2W 2B 2k
+ j                                                                                                                                                                        k
+ 1w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w k    
+  
