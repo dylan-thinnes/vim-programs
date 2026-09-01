@@ -1,0 +1,7 @@
+Experiment for sequencing registers before/after one another
+
+1Wk                   j           w                                                   j           w                                                   j
+            --------- j --------- k ---     ---------------------------     --------- j --------- k ---     ---------------------------     --------- j ---------------
+mmW 1WW 2gE 1Wr12gE 1 Bvyr0W@"W k 1WW 2gE 1Wr12gE 0 Bvyr0W@"W j 1WW 2gE 1Wr12gE 0 Bvyr0W@"W k 1WW 2gE 1Wr12gE 0 Bvyr0W@"W j 1WW 2gE 1Wr12gE 0 Bvyr0W@"W j 1gE
+            ---------------------------     --------- k --------- j ---     ---------------------------     --------- k --------- j ---     --------------------- j ---
+4k                                                    k         2gE                                                   k         3gE                             2gE    
